@@ -1,0 +1,341 @@
+/*
+Theme Name: Site :: 
+Theme URI: http://www.inovamidia.com.br
+Description: Tema para o site 
+Version: 1.0
+Author: Inovamidia - 
+Author URI: http://www.inovamidia.com.br
+
+/* Zerando CSS */
+
+/* HTML5 */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, blockquote,
+pre, a, abbr, address, cite, code, del,
+dfn, em, img, ins, kbd, q, samp, small,
+strong, sub, sup, var, b, i, dl, dt, dd,
+ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr,
+th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+    outline-width: 0;
+}
+
+header, nav, footer, section, article, aside { display:block; }
+figure { display:inline-block; margin:0; padding:0; }
+
+html { 
+	overflow-x:hidden;
+	height: 100%;
+	font-size: 100%;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%; 
+}
+
+body, label, input, textarea { font:16px/1.4 Tahoma, Geneva, sans-serif }
+
+body { color:#1c0f08; background: #fff url(../img/bg-site.jpg) repeat top center; height: 100%; }
+
+/* href */
+a { text-decoration:none; outline:none; cursor:pointer; color:darkgoldenrod; }
+a:hover { text-decoration:underline; }
+a img { border:0; }
+a img:hover { -webkit-filter: saturate(2); }
+img { display:block; /*width:100%;*/ }
+:focus { outline:none; }
+
+a, a *, #nav ul li, .sub-menu, input, textarea { 
+	-webkit-transition:all 300ms ease-out;
+	-moz-transition:all 300ms ease-out;
+	transition:all 300ms ease-out;
+}
+:active { -webkit-transition:none; -moz-transition:none; transition:none; }
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+/* paragrafo */
+p { 
+	margin-top:5px;
+	margin-bottom:5px;
+	font-family: 'Chau Philomene One', sans-serif;
+	font-size: 18px;
+	/*text-align:justify;*/
+	}
+
+/* listas */
+ul { list-style:none; }
+ul li { float:left; }
+ol { list-style:disc; }
+
+/* titulo */
+h1, h2, h3, h4, h5, h6, h7 { font-weight:bold; }
+h1 { font-size:31px;  font-family: 'Chau Philomene One', sans-serif; }
+h2 { font-size:24px; }
+h3 { font-size:19px; }
+
+/* clear */
+.clr { clear:both; }
+.clearfix:after { display:block; clear:both; line-height:0; height:0; content:""; }
+
+hr { border:none; border-bottom:1px solid #999; }
+
+/* colunas */
+.col-esq { float:left; }
+.col-dir { float:right; }
+.col-centro { display:inline-block; }
+.col-unica { width:100%; }
+
+.content {
+	width:970px;
+	margin:0 auto;
+	/*padding-bottom:50px;*/
+	display:table;
+}
+	
+/*-------------------Wrapper-------------------*/
+#wrapper {
+	width:100%;
+}
+
+/*-------------------Header-------------------*/
+#header {
+	width:100%; height:340px;
+	display:table;
+	position:relative;
+}
+
+#header h1 span {
+	display:none;
+}
+
+#header .content .logo {
+	position: absolute;
+	z-index: 5;
+	top: 255px;
+}
+
+#header .section-banner {
+	/*background:url(../img/bg-banner.png) no-repeat;
+	width: 1920px;
+	height: 362px;
+	position: absolute;
+	z-index: 1;
+	top: 70px;
+	left: 50%;
+	margin-left: -990px;
+	padding-left: 13px;
+	margin-top: 15px;*/
+}
+
+#header .section-banner img{
+	display:block;
+	width:100%;
+}
+
+
+#header .section-banner figure {
+	margin-top:-28px;
+}
+
+#header .section-banner figure img {
+	display:none;
+}
+
+#header .section-redes {
+	position:absolute;
+	z-index:5;
+	left:50%;
+	margin-left: -420px;
+}
+
+#header .section-redes .bg {
+	background:url(../img/bg-redes.png) no-repeat;
+	width:137px; height:59px;
+	display:block;
+}
+
+#header .section-redes .bg a {
+	float:left;
+	margin-left:6px;
+	margin-top:7px;
+}
+
+#header .section-redes .bg a:first-child {
+	margin-left:15px;
+}
+
+#header .section-data {
+	position:absolute;
+	z-index:5;
+	left:50%;
+	margin-left: -120px;
+	top: 50px;
+}
+
+/*-------------------Nav-------------------*/
+#nav {
+	display: table;
+	width: 100%;
+	margin: 0 auto;
+	background:url(../img/bg-nav.jpg) no-repeat top center;
+}
+
+#nav ul {
+	width: 950px;
+	margin: 0 auto;
+}
+
+#nav ul li {
+	margin-left: 68px;
+}
+
+#nav ul li:first-child {
+	margin-left:0px;
+}
+
+#nav ul li a {
+	float: left;
+    margin-top: 10px;
+    margin-bottom: 7px;
+    font-family: 'Chau Philomene One', sans-serif;
+    color: #fff;
+    font-size: 31px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#nav ul li a:hover {
+	color: #c8b800;
+	text-decoration: none;
+}
+
+#nav ul li a.ativo {
+	cursor:default;
+	opacity:.8;
+}
+
+/*-------------------Titulo-------------------*/
+.titatracoes, .titafesta, .titvendas, .titcontatos{
+	margin:0 auto;
+	display:table;
+	position: relative;
+	margin-top: -87px !important;
+	margin-bottom:20px;
+}
+
+.titvendas{
+  margin-top: -78px !important;
+}
+
+.titafesta{
+  margin-top: -72px !important;
+}
+
+/*-------------------Main-------------------*/
+main {
+	width:100%;
+	display:table;
+}
+.section-footer {
+	overflow:hidden;
+}
+
+.section-footer a {
+	display:inline-block;
+	vertical-align:middle;
+	margin-right:10px;
+	margin-left:0px;
+}
+
+.section-footer .box-patrocinio p, .section-footer .box-realizacao p {
+	margin-left: 32px;
+	font-size: 10px;
+	color: #999;
+}
+
+.section-footer .box-info {
+	margin-right:30px;
+	margin-top:24px;		
+}
+
+.section-footer .box-info p {
+	font-size:32px;
+	font-family:'Chau Philomene One', sans-serif;
+	font-weight:bold;
+	line-height:18px;
+}
+
+.section-footer .box-info p span {
+	font-size:18px;
+}
+
+.section-footer .box-info p:first-child {
+	font-size:12px;
+}
+
+.section-footer .box-copy-tel {
+	margin-left:90px;
+}
+
+.section-footer .box-copy-tel img {
+	margin:0 auto;
+	display:block;
+}
+
+/*-------------------Footer-------------------*/
+#footer {
+	width:100%;
+	display:table;
+	background:#fff;
+	padding-bottom: 10px;
+	background: url(../img/bg-rodape.jpg) no-repeat;
+}
+
+#footer .content .col-esq span {
+	margin-left: 0px;
+	margin-top: 5px;
+	float: left;
+	font-size:10px;
+	color:#000;
+}
+
+#footer .content .box-informacoes {
+	margin-top: 72px;
+}
+
+#footer .content .box-informacoes h3 {
+	font-size:35px;
+	text-align: center;
+	font-family:'Chau Philomene One', sans-serif;
+	font-weight: normal;
+	line-height: 28px;
+	color: #fff;
+}
+
+#footer .content .box-informacoes p {
+	font-size:57px;
+	text-align: center;
+	font-family:'Chau Philomene One', sans-serif;
+	color: #fff;
+}
+
+#footer .content .box-informacoes p small {
+	font-size:35px;
+}
+
+#footer .content .img-logo {
+	margin-top: 10px;
+	margin-left: 100px;
+	float: left;
+}
+
+#footer .content .powered {
+	margin-right:15px;
+	margin-top:105px;
+}

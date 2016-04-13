@@ -1,0 +1,63 @@
+.section-vendas .titulo {
+	font-size:32px;
+	font-family: 'Chau Philomene One', sans-serif;
+	font-weight: normal;
+	text-transform: uppercase;
+	-webkit-transform: rotate(2deg);
+	-moz-transform: rotate(2deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
+	margin-top: 20px;
+}
+
+.section-vendas .subtitulo {
+	font-size: 52px;
+    font-family: 'Chau Philomene One', sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    -webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
+    margin-top: -27px;
+}
+
+.bg-txt-vendas {
+	background: url(../img/bg-txt-vendas.png);
+	width: 405px;
+	height: 90px;
+}
+
+.bg-txt-vendas p {
+	color: #fff;
+	line-height: 18px;
+	text-align: center;
+	padding: 27px;
+}
+
+
+.section-facebook {
+	margin-top: 65px;
+    padding-left: 48px;
+    padding-top: 19px;
+    background: url(../img/bg-facebook.png);
+    background-repeat: no-repeat;
+    width: 470px;
+}
+
+.section-facebook img {
+	margin-top:70px;
+}
+
+.section-facebook .titulo {
+	z-index: 99;
+	margin-top: -70px;
+	position: absolute;
+	margin-left: 5px;
+	font-size:42px;
+	font-family: 'Chau Philomene One', sans-serif;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+.box-dir {
+	width:410px;
+}

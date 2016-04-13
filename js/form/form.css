@@ -1,0 +1,68 @@
+/*----------Box - Página----------*/
+form {
+	margin:0 auto;
+	margin-top:30px;
+	display:table;
+}
+
+.error {
+	color:#F00;!important
+	font-size:11px;
+	margin-top:5px;
+	display:block;
+}
+
+form input[type="text"], form input[type="password"], form input[type="file"], form textarea, form select, form textarea {
+	background:url(../../img/bg-input.png) no-repeat;
+	border: none;
+	width: 492px;
+	height: 50px;
+	margin-bottom: 5px;
+	margin-top: 20px;
+	padding-left: 16px;
+	padding-top: 5px;
+	display: block;
+	color: #fff !important;
+	font-size: 16px;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+::-webkit-input-placeholder {
+    color:    #fff;
+}
+:-moz-placeholder {
+    color:    #fff;
+}
+
+form input[type="text"]:first-child, form input[type="password"]:first-child, form input[type="file"]:first-child, form textarea, form select{
+	margin-top:0px;
+}
+
+form select {
+	width:99%;
+}
+
+form textarea {
+	background:url(../../img/bg-textarea.png) no-repeat;
+	height: 189px;
+	padding-top: 18px;
+	margin-top:20px !important;
+}
+
+form input[type="submit"], form input[type="button"] {
+	background:url(../../img/bt-enviar.png) no-repeat;
+	border:none;
+	width: 124px;
+	height: 27px;
+	cursor: pointer;
+	
+	/*margin-right: 3px;*/
+	margin: 0 auto;
+	display: table;
+}
+
+form input[type="submit"]:hover, form input[type="button"]:hover { -webkit-filter: saturate(2); }
+
+form input[type="text"]:focus, form input[type="password"]:focus, form textarea:focus, form input[type="submit"]:focus {
+	color:#000;
+}

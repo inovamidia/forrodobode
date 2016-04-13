@@ -1,0 +1,52 @@
+.twtr-doc, .twtr-timeline { border-radius:0px; }							
+.twtr-hd { background:none; display:none; }							
+.twtr-bd { background:none !important }							
+.twtr-hd h3 a, .twtr-hd h4 a { float:left; margin-right:7px; }							
+.twtr-hd h3 a {	margin-top:2px; }							
+.twtr-hd h4 a {	text-transform:uppercase; }							
+.twtr-ft { display:none; }
+.twtr-tweet-text {
+	margin-left: 0;
+	padding-left: 60px !important;
+	padding-top: 10px;
+}
+.twtr-tweet-text p { 
+	font-family: Arial, sans-serif;
+	font-size:18px;
+	line-height: 19px !important;
+	width: 370px !important;
+}
+
+#twtr-widget-1 .twtr-tweet a {
+	font-family: Arial, sans-serif !important;
+	font-weight:normal;
+	font-size:18px;
+}
+.twtr-timestamp, .twtr-reply, .twtr-rt, .twtr-fav {
+	font-family: Arial !important;
+	font-size:9px !important;
+	margin-top:3px;
+}
+
+.twtr-widget .twtr-tweet-wrap {
+	background:none;
+	margin-bottom:25px;
+}
+
+.twtr-user {
+	display:none;
+}
+
+.twtr-widget .twtr-tweet {
+	border-bottom: 0px dotted #DDD !important;
+	background:url(../../img/bg-twitter.png) no-repeat;
+}
+
+#twtr-widget-1 .twtr-doc, #twtr-widget-1 .twtr-hd a, #twtr-widget-1 h3, #twtr-widget-1 h4 {
+	background: none !important;
+	color: #069 !important;
+}
+
+#twtr-widget-1 .twtr-new-results, #twtr-widget-1 .twtr-results-inner, #twtr-widget-1 .twtr-timeline {
+background: none !important;
+}

@@ -1,0 +1,9 @@
+#flickr-feed {
+	display: block;
+	width: 395px;
+	margin-top: 10px;
+}
+
+#flickr-feed #cbox li {
+	margin:2px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+
+<html class="no-js" lang="pt-br">
+	
+<!--Head-->
+<head>	
+    <title>Página Ativa</title>      
+    <style>	
+		#nav ul li a {
+			color:blue;
+		}
+		#nav ul li a.ativo {
+			cursor:default;
+			color:red;
+		}
+	</style>
+</head>
+<!--Fim-Head-->
+
+<body id="pagina01">
+	
+    <nav id="nav">
+        <ul>
+            <li><a data="pagina01" href="nomepagina.php" title="">Link01</a></li>
+            <li><a data="pagina02" href="nomepagina.php" title="">Link02</a></li>
+            <li><a data="pagina03" href="nomepagina.php" title="">Link03</a></li>
+        </ul>
+    </nav>
+    
+<!--Biblioteca JS-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<!--Fim-Biblioteca--> 
+
+<!--Página-Ativa--> 
+<script src="pagina-ativa.js"></script>
+<!--Fim-Página-Ativa--> 
+    
+</body>
+</html>

@@ -1,0 +1,191 @@
+main .bg {
+	background: rgba(236,236,236,0.4);
+    width: 946px;
+    padding-top: 20px;
+}
+
+main .bg .article {
+	width:650px;
+	margin: 0 auto;
+	margin-top:10px;
+	display:block;
+}
+
+main .bg .article p {
+	font: 14px Tahoma, Geneva, sans-serif;
+	margin-top:25px;
+}
+
+main .bg .article .bg-figure {
+	background:url(../img/bg-img-afesta.png) no-repeat;
+	width:744px;
+	height:599px;
+	position:relative;
+	margin-left:-15px;
+}
+
+main .bg .article .bg-figure img {
+	margin: 64px 22px;
+}
+
+.section-banner {
+	background:url(../img/bg-banner-interna.jpg) top center no-repeat;
+	width: 100%;
+}
+
+.section-banner img {
+	margin:0 auto;
+	display: table;
+}
+
+.titulo {
+	font-family: 'Chau Philomene One', sans-serif;
+	color: #1c0f08;
+	font-size: 48px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.tit-atracoes {
+	margin-left: 30px;
+}
+
+.tit-contato {
+	margin-left: 80px;
+}
+
+#vendas .article b {
+	color:#fff100;
+}
+
+#atracoes .section {
+	/*width:410px;
+	margin-left:70px;*/
+	width: 459px;
+	margin-left: 8px;
+}
+
+#atracoes .article {
+	width:400px;
+	margin-right:60px;
+}
+
+#atracoes .article .box {
+	display:none;
+}
+
+#atracoes .article h2 {
+	color:#e5d34b;
+}
+
+#atracoes .article .box:first-child {
+	display:block;
+}
+
+#atracoes .section .link01 {
+	background: url('../img/bg-atracoes.png') no-repeat -38px -14px;
+	width: 321px;
+	height: 85px;
+	display:block;
+}
+
+#atracoes .section .link01.link-ativo {
+	background: url('../img/bg-atracoes.png') no-repeat -433px 0;
+	margin-left:50px;
+}
+
+#atracoes .section .link02 {
+	background: url('../img/bg-atracoes.png') no-repeat -5px -107px;
+	width: 392px;
+	height: 83px;
+	display:block;
+}
+
+#atracoes .section .link02.link-ativo {
+	background: url('../img/bg-atracoes.png') no-repeat -439px -91px;
+	height: 94px;
+}
+
+#atracoes .section .link03 {
+	background: url('../img/bg-atracoes.png') no-repeat -33px -189px;
+	width: 321px;
+	height: 86px;
+	display:block;
+}
+
+#atracoes .section .link03.link-ativo {
+	background: url('../img/bg-atracoes.png') no-repeat -468px -184px;
+	margin-left:80px;
+}
+
+#atracoes .section .link04 {
+	background: url('../img/bg-atracoes.png') no-repeat -5px -283px;
+	width: 390px;
+	height: 86px;
+	display:block;
+}
+
+#atracoes .section .link04.link-ativo {
+	background: url('../img/bg-atracoes.png') no-repeat -440px -274px;
+}
+
+/* atracoes */
+.box-a, .box-b, .box-c, .box-d{
+	display: inherit;
+	margin-bottom: 60px;
+}
+
+.box-a img, .box-b img, .box-c img, .box-d img{
+	width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.box-a p, .box-b p, .box-c p, .box-d p{
+	margin-right:40px;	
+
+} 
+
+.box-esquerdo{
+	/*width: 310px;*/
+	float: left;
+	margin-left: 110px;
+	margin-right: 130px;
+	margin-bottom:30px;
+	
+}
+
+.box-esquerdo p{
+	font-size:21px;
+	line-height: 26px;
+	font-family: 'Chau Philomene One', sans-serif;
+}
+
+.box-direito{
+	width: 339px;
+	float: left;
+	margin-right: 83px;
+}
+
+.box-direito p{
+	font-size:16px;
+	line-height: 22px;
+}
+
+.textovermelho{
+	font-weight: bold !important;
+	color:#bb3c0e;
+	
+}
+	
+.textovermelholink{
+	color:#bb3c0e;
+}
+.textomenor{
+	font-size: 11px !important;
+}
+
+.imagem img{
+display:block; width:100%;
+}
+

@@ -1,0 +1,53 @@
+#browsername {
+	color: #fff;
+	padding: 10px;
+}
+#browsername .content {
+	margin:0 auto;
+	display:block;
+	width:800px;
+	height:60px;
+}
+#browsername .content .simbolo{
+	float:left;
+}
+#browsername .content .box-texto{
+	float:left;
+	margin-left:35px;
+	margin-top:13px;
+}
+#browsername .content .texto{
+	font:14px Verdana, Geneva, sans-serif;
+	font-weight:bold;
+	color:#666666;
+	display:block;
+}
+#browsername .content .sub-texto{
+	font:12px Verdana, Geneva, sans-serif;
+	font-weight:normal;
+	color:#666666;
+	display:block;
+}
+#browsername .content .bt {
+	float:right;
+	margin-top:10px;
+}
+.firefox #browsername {
+	background: #ffffd6;
+}
+.chrome #browsername {
+	background: #f0968c;
+}
+.msie #browsername {
+	background: #e1eaf5;
+}
+.safari #browsername {
+	background: #d7e7fa;
+}
+.opera #browsername {
+	background: #000;
+}
+.iphone #browsername {
+	background: #ccc;
+	color: #000;
+}

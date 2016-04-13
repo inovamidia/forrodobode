@@ -1,0 +1,40 @@
+.parallax {
+	width: 100%;
+	max-width: 1116px;
+	position: absolute;
+	z-index: 1;
+	left:50%;
+	margin-left:-300px;
+}
+
+#header .img-banner {
+	min-height: 418px;
+	width: 1116px;
+	position: absolute;
+	z-index: 2;
+	display:none;
+}
+
+#header .img-asa {
+	background: url(../../img/banner/asa-de-aguia.png) no-repeat;
+}
+
+#header .img-michel {
+	background:url(../../img/banner/michel-telo.png) no-repeat;
+}
+
+#header .img-calcinha {
+	background:url(../../img/banner/calcinha-preta.png) no-repeat;
+}
+
+#header .img-garota {
+	background:url(../../img/banner/garota-safada.png) no-repeat;
+}
+
+#header .img-coleguinhas {
+	background:url(../../img/banner/as-coleguinhas.png) no-repeat;
+}
+
+#header .img-estakazero {
+	background:url(../../img/banner/estakazero.png) no-repeat;
+}
