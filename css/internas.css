@@ -46,6 +46,15 @@ main .bg .article .bg-figure img {
 	margin-bottom: 20px;
 }
 
+.subtitulo {
+	font-family: 'Chau Philomene One', sans-serif;
+	color: #1c0f08;
+	font-size: 36px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	line-height: 36px;
+}
+
 .tit-atracoes {
 	margin-left: 30px;
 }
@@ -151,7 +160,7 @@ main .bg .article .bg-figure img {
 	float: left;
 	margin-left: 110px;
 	margin-right: 130px;
-	margin-bottom:30px;
+	margin-bottom:250px;
 	
 }
 

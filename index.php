@@ -70,7 +70,7 @@
             <div class="content">
                 	
                 <!--Col-Esq-->   
-                <div class="col-esq">
+                <div class="box-esq col-esq">
                                          
                     <section class="section-vendas">
                         <h2 class="titulo">Aqui você</h2>
@@ -79,6 +79,21 @@
 
                     <section class="bg-txt-vendas">
                         <p>Conheça cada serviço que iremos oferecer e escolha o que melhor lhe atender.</p>
+                    </section>
+
+                    <section class="section-servicos">
+                        <div class="box-servicos">
+                            <img src="img/tit-arena-open-bar.png" alt="" width="40%" />
+                            <p>Serviços: Cerveja, refrigerante e água.</p>
+                        </div>
+                        <div class="box-servicos">
+                            <img src="img/tit-camarote-open-bar.png" alt="" width="40%" />
+                            <p>Serviços: Cerveja, refrigerante, água, Whisky 8 anos e vodca nacional.</p>
+                        </div>
+                        <div class="box-servicos">
+                            <img src="img/tit-camarote-premium.png" alt="" width="40%" />
+                            <p>Serviços: Cerveja, refrigerante, água, Whisky 8 anos, vodca Premium, Buffet de Comidas Típicas e Espetinhos.</p>
+                        </div>
                     </section>
                 
                 </div>
